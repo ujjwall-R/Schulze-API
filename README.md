@@ -10,7 +10,7 @@ Use this link [https://schulzeapi.herokuapp.com/hi](https://schulzeapi.herokuapp
 ## Usage
 
 **Request:**
-```json
+```
 GET /getResult HTTP/1.1
 Accept: application/json
 Content-Type: application/json
@@ -28,13 +28,13 @@ Content-Type: application/json
 }
 ```
 **Successful Response:**
-```json
+```
 HTTP/1.1 200 OK
 
 [["A","B"],["C","D"],["E"],......]
 ```
 **Failed Response:**
-```json
+```
 HTTP/1.1 400
 ``` 
 
